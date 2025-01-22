@@ -1,0 +1,8 @@
+version: '3'
+services:
+  my_service:
+    image: oznu/cloudflare-ddns
+    environment:
+      - API_KEY=${API_KEY}
+      - ZONE=${ZONE}
+      - SUBDOMAIN=${SUBDOMAIN}
