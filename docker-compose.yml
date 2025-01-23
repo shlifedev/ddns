@@ -6,3 +6,4 @@ services:
       - API_KEY=${API_KEY}
       - ZONE=${ZONE}
       - SUBDOMAIN=${SUBDOMAIN}
+    restart: always
