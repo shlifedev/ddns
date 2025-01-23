@@ -7,3 +7,4 @@ services:
       - ZONE=${ZONE}
       - SUBDOMAIN=${SUBDOMAIN}
     restart: always
+    container_name: cloudflare-ddns
